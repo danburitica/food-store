@@ -2,6 +2,7 @@ const JSONdb = require("simple-json-db");
 const db = new JSONdb("./database.json");
 const axios = require("axios");
 require("dotenv").config();
+const { v4: uuidv4 } = require("uuid");
 
 const { BUY_BASE_URL } = process.env;
 
@@ -17,6 +18,7 @@ const getIngredients = async (req, res) => {
 
   let ingredientsToKitchen = {};
   let buyHistory = {
+    id: uuidv4(),
     buyIngredients: {},
     date: new Date().toLocaleString(),
   };
@@ -44,7 +46,8 @@ const getIngredients = async (req, res) => {
     }
   }
   db.set("store", database);
-  db.set("buyHistory", [...db.get("buyHistory"), buyHistory]);
+  Object.keys(buyHistory.buyIngredients).length &&
+    db.set("buyHistory", [...db.get("buyHistory"), buyHistory]);
   db.sync();
   res.json(ingredientsToKitchen);
 };

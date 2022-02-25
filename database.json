@@ -1,57 +1,47 @@
 {
-  "store": {
-    "tomato": 3,
-    "lemon": 1,
-    "potato": 0,
-    "rice": 0,
-    "ketchup": 3,
-    "lettuce": 1,
-    "onion": 0,
-    "cheese": 0,
-    "meat": 1,
-    "chicken": 1
-  },
-  "buyHistory": [
-    {
-      "buyIngredients": {
-        "potato": 6,
-        "rice": 3,
-        "onion": 1,
-        "chicken": 5
-      },
-      "date": "24/2/2022 23:58:50"
-    },
-    {
-      "buyIngredients": {
-        "potato": 3,
+    "store": {
+        "tomato": 1,
+        "lemon": 1,
+        "potato": 0,
+        "rice": 1,
         "ketchup": 3,
-        "onion": 6,
-        "meat": 4
-      },
-      "date": "24/2/2022 23:59:04"
+        "lettuce": 3,
+        "onion": 0,
+        "cheese": 1,
+        "meat": 2,
+        "chicken": 0
     },
-    {
-      "buyIngredients": {
-        "tomato": 5,
-        "potato": 2,
-        "rice": 2
-      },
-      "date": "24/2/2022 23:59:12"
-    },
-    {
-      "buyIngredients": {
-        "potato": 3,
-        "ketchup": 5,
-        "onion": 4
-      },
-      "date": "25/2/2022 0:04:47"
-    },
-    {
-      "buyIngredients": {
-        "tomato": 4,
-        "rice": 3
-      },
-      "date": "25/2/2022 0:05:04"
-    }
-  ]
+    "buyHistory": [
+        {
+            "id": "3b7b43f0-b01d-41be-8496-ce23f68dd050",
+            "buyIngredients": {
+                "rice": 3
+            },
+            "date": "25/2/2022 1:37:36"
+        },
+        {
+            "id": "6c755b5c-cce5-4d29-862f-453194d22cdf",
+            "buyIngredients": {
+                "tomato": 4,
+                "chicken": 1
+            },
+            "date": "25/2/2022 1:37:40"
+        },
+        {
+            "id": "1bcc55b6-3a7b-4511-936b-91fab8ecf709",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 1:37:46"
+        },
+        {
+            "id": "ceaa5a2a-6c79-44e2-af6a-48d4c988a43c",
+            "buyIngredients": {
+                "lettuce": 4
+            },
+            "date": "25/2/2022 1:37:51"
+        }
+    ]
 }
