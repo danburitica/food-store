@@ -13,9 +13,13 @@ const { BUY_BASE_URL } = process.env;
 
 const getIngredients = async (req, res) => {
   const { ingredients } = req.body;
-  const database = db.JSON();
+  const { store: database } = db.JSON();
 
   let ingredientsToKitchen = {};
+  let buyHistory = {
+    buyIngredients: {},
+    date: new Date().toLocaleString(),
+  };
 
   for (const ingredient in ingredients) {
     let reqQuantity = ingredients[ingredient];
@@ -30,6 +34,7 @@ const getIngredients = async (req, res) => {
             ingredient,
             reqQuantity - storeQuantity
           );
+          buyHistory.buyIngredients[ingredient] = newQuantity;
           ingredientsToKitchen[ingredient] = reqQuantity;
           database[ingredient] = newQuantity + storeQuantity - reqQuantity;
         } catch (error) {
@@ -38,7 +43,8 @@ const getIngredients = async (req, res) => {
       }
     }
   }
-  db.JSON(database);
+  db.set("store", database);
+  db.set("buyHistory", [...db.get("buyHistory"), buyHistory]);
   db.sync();
   res.json(ingredientsToKitchen);
 };
@@ -51,6 +57,7 @@ const getIngredients = async (req, res) => {
 
 const buyIngredients = async (ingredient, minQuantity) => {
   let quantityBuy = 0;
+
   while (quantityBuy < minQuantity) {
     try {
       const {

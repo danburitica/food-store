@@ -1,12 +1,57 @@
 {
-    "tomato": 0,
+  "store": {
+    "tomato": 3,
     "lemon": 1,
     "potato": 0,
-    "rice": 3,
-    "ketchup": 1,
-    "lettuce": 0,
-    "onion": 2,
+    "rice": 0,
+    "ketchup": 3,
+    "lettuce": 1,
+    "onion": 0,
     "cheese": 0,
-    "meat": 0,
-    "chicken": 2
+    "meat": 1,
+    "chicken": 1
+  },
+  "buyHistory": [
+    {
+      "buyIngredients": {
+        "potato": 6,
+        "rice": 3,
+        "onion": 1,
+        "chicken": 5
+      },
+      "date": "24/2/2022 23:58:50"
+    },
+    {
+      "buyIngredients": {
+        "potato": 3,
+        "ketchup": 3,
+        "onion": 6,
+        "meat": 4
+      },
+      "date": "24/2/2022 23:59:04"
+    },
+    {
+      "buyIngredients": {
+        "tomato": 5,
+        "potato": 2,
+        "rice": 2
+      },
+      "date": "24/2/2022 23:59:12"
+    },
+    {
+      "buyIngredients": {
+        "potato": 3,
+        "ketchup": 5,
+        "onion": 4
+      },
+      "date": "25/2/2022 0:04:47"
+    },
+    {
+      "buyIngredients": {
+        "tomato": 4,
+        "rice": 3
+      },
+      "date": "25/2/2022 0:05:04"
+    }
+  ]
 }
