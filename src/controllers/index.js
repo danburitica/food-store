@@ -40,7 +40,7 @@ const getIngredients = async (req, res) => {
           ingredientsToKitchen[ingredient] = reqQuantity;
           database[ingredient] = newQuantity + storeQuantity - reqQuantity;
         } catch (error) {
-          console.error(error);
+          res.json({ message: error });
         }
       }
     }
@@ -68,7 +68,7 @@ const buyIngredients = async (ingredient, minQuantity) => {
       } = await axios.get(BUY_BASE_URL + ingredient);
       quantityBuy += quantitySold;
     } catch (error) {
-      console.error(error);
+      res.json({ message: error });
     }
   }
 

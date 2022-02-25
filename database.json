@@ -1,14 +1,14 @@
 {
     "store": {
-        "tomato": 0,
+        "tomato": 1,
         "lemon": 0,
-        "potato": 2,
-        "rice": 0,
-        "ketchup": 1,
+        "potato": 0,
+        "rice": 2,
+        "ketchup": 0,
         "lettuce": 2,
-        "onion": 1,
-        "cheese": 2,
-        "meat": 2,
+        "onion": 2,
+        "cheese": 1,
+        "meat": 0,
         "chicken": 1
     },
     "buyHistory": [
@@ -141,6 +141,2538 @@
                 "chicken": 3
             },
             "date": "25/2/2022 2:03:45"
+        },
+        {
+            "id": "c4bda650-1356-45c8-b231-4762acb91d38",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 4,
+                "chicken": 1
+            },
+            "date": "25/2/2022 2:36:25"
+        },
+        {
+            "id": "9d670e42-8675-46e5-be89-c0fc6707d447",
+            "buyIngredients": {
+                "tomato": 4,
+                "rice": 2,
+                "onion": 3,
+                "chicken": 5
+            },
+            "date": "25/2/2022 4:04:02"
+        },
+        {
+            "id": "7dbe98a1-34c5-4483-aab1-37d9efd3a49f",
+            "buyIngredients": {
+                "rice": 4
+            },
+            "date": "25/2/2022 4:04:24"
+        },
+        {
+            "id": "aaf71805-c9b7-4474-ab59-cac0f4f2dcf8",
+            "buyIngredients": {
+                "potato": 5,
+                "rice": 1,
+                "chicken": 3
+            },
+            "date": "25/2/2022 4:10:21"
+        },
+        {
+            "id": "712f83e1-4280-459a-9676-b4d8b19f8ba5",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 5,
+                "rice": 4,
+                "onion": 2
+            },
+            "date": "25/2/2022 4:15:34"
+        },
+        {
+            "id": "073e2bfa-2c36-4937-9bee-54e2f0ba1001",
+            "buyIngredients": {
+                "potato": 6,
+                "chicken": 2
+            },
+            "date": "25/2/2022 4:18:24"
+        },
+        {
+            "id": "509b7137-2317-4341-ba1e-1a945166100c",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 1,
+                "ketchup": 1,
+                "onion": 4
+            },
+            "date": "25/2/2022 4:18:30"
+        },
+        {
+            "id": "1a3d49b1-0ee1-4c27-a432-643d774dcf7f",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 3,
+                "rice": 3,
+                "ketchup": 3,
+                "onion": 4
+            },
+            "date": "25/2/2022 4:20:11"
+        },
+        {
+            "id": "f5bf7d1c-923a-462a-8dac-dbf2a84313a4",
+            "buyIngredients": {
+                "rice": 1,
+                "chicken": 5
+            },
+            "date": "25/2/2022 4:20:29"
+        },
+        {
+            "id": "0b179f0a-e350-4f18-9be1-a3f9439b1acd",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 2,
+                "rice": 4,
+                "chicken": 1
+            },
+            "date": "25/2/2022 4:20:33"
+        },
+        {
+            "id": "4a102870-1c70-4d23-8983-904ce6bf9bb2",
+            "buyIngredients": {
+                "tomato": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 4:24:31"
+        },
+        {
+            "id": "6c118f52-37a9-4dca-b694-ff151b1a9e74",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 4,
+                "rice": 4,
+                "ketchup": 3,
+                "lettuce": 4,
+                "onion": 4,
+                "cheese": 2,
+                "meat": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 4:26:51"
+        },
+        {
+            "id": "39b21c33-19f4-4883-845a-23210f238821",
+            "buyIngredients": {
+                "potato": 5
+            },
+            "date": "25/2/2022 4:27:06"
+        },
+        {
+            "id": "833fa63d-c83b-40d4-b591-9fcf3416340c",
+            "buyIngredients": {
+                "potato": 7,
+                "rice": 2,
+                "chicken": 1
+            },
+            "date": "25/2/2022 4:29:34"
+        },
+        {
+            "id": "27f26e66-0f17-417b-a106-afcabf0d161b",
+            "buyIngredients": {
+                "tomato": 1,
+                "potato": 5,
+                "rice": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 4:29:38"
+        },
+        {
+            "id": "3ce03340-33e5-4406-af0a-7dfc0246c1e2",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 4,
+                "rice": 3,
+                "onion": 2,
+                "chicken": 5
+            },
+            "date": "25/2/2022 4:29:41"
+        },
+        {
+            "id": "47558b26-6ac0-4a08-8b1e-2a24ef32ba4b",
+            "buyIngredients": {
+                "potato": 3,
+                "lettuce": 1
+            },
+            "date": "25/2/2022 4:29:43"
+        },
+        {
+            "id": "5ce642d1-8dfa-4591-89e4-7118ab5e5d40",
+            "buyIngredients": {
+                "potato": 6,
+                "rice": 3,
+                "onion": 2
+            },
+            "date": "25/2/2022 4:29:45"
+        },
+        {
+            "id": "aaa141be-af48-4ee7-b217-ad513257e149",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 3,
+                "ketchup": 4,
+                "onion": 3
+            },
+            "date": "25/2/2022 4:29:47"
+        },
+        {
+            "id": "463ee4ab-53e6-4b44-a85d-43394eef6453",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 3,
+                "lettuce": 4,
+                "meat": 1
+            },
+            "date": "25/2/2022 4:29:50"
+        },
+        {
+            "id": "0e70d132-5e82-4217-be77-b66b779cbf50",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 2,
+                "rice": 3,
+                "onion": 3,
+                "meat": 1
+            },
+            "date": "25/2/2022 4:29:52"
+        },
+        {
+            "id": "64a259de-8f7f-4391-9a3d-992a76662ef6",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 3,
+                "ketchup": 2,
+                "lettuce": 2,
+                "onion": 2,
+                "cheese": 4,
+                "meat": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 4:29:55"
+        },
+        {
+            "id": "c095b809-da05-4f19-af38-62fb26558fda",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 4,
+                "potato": 3,
+                "ketchup": 2,
+                "lettuce": 5,
+                "cheese": 5,
+                "meat": 2,
+                "chicken": 1
+            },
+            "date": "25/2/2022 4:29:59"
+        },
+        {
+            "id": "a33ac285-1b8f-4810-95e0-1f97ecda90ab",
+            "buyIngredients": {
+                "rice": 3,
+                "onion": 4,
+                "chicken": 5
+            },
+            "date": "25/2/2022 4:30:08"
+        },
+        {
+            "id": "b2eed4ab-eda4-4bbb-9145-f8e123c1ae45",
+            "buyIngredients": {
+                "tomato": 2,
+                "lemon": 4,
+                "rice": 2,
+                "ketchup": 4,
+                "lettuce": 5,
+                "cheese": 3,
+                "meat": 4
+            },
+            "date": "25/2/2022 4:39:52"
+        },
+        {
+            "id": "88358d5d-63a0-4778-8e6c-9a999d756f20",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 4,
+                "rice": 3,
+                "chicken": 1
+            },
+            "date": "25/2/2022 4:39:57"
+        },
+        {
+            "id": "0c96a2da-9991-415c-83a5-d3f42c3b6b5f",
+            "buyIngredients": {
+                "rice": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 4:39:59"
+        },
+        {
+            "id": "fccd4f26-b0e4-4c50-8ee1-a961d7393235",
+            "buyIngredients": {
+                "potato": 6,
+                "lettuce": 3,
+                "onion": 3
+            },
+            "date": "25/2/2022 4:40:01"
+        },
+        {
+            "id": "19feb1a0-207b-4580-a1e0-10d5858cf431",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 3,
+                "lettuce": 5,
+                "cheese": 5
+            },
+            "date": "25/2/2022 4:40:05"
+        },
+        {
+            "id": "b2b5bf97-cfb0-4407-b010-7a753d977dbe",
+            "buyIngredients": {
+                "tomato": 1,
+                "rice": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 4:42:07"
+        },
+        {
+            "id": "d2446b1a-1dc8-4238-99a6-e797c833fdaa",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 3,
+                "rice": 2,
+                "onion": 4
+            },
+            "date": "25/2/2022 4:42:23"
+        },
+        {
+            "id": "c3f0a6df-7abf-4070-9d5a-b2f4ad677dae",
+            "buyIngredients": {
+                "lemon": 2,
+                "potato": 4,
+                "ketchup": 2,
+                "lettuce": 4,
+                "cheese": 4,
+                "meat": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 4:42:32"
+        },
+        {
+            "id": "17a3e36a-ff50-45d1-babe-7426596feeb0",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 4:43:16"
+        },
+        {
+            "id": "1e6bb708-6e61-47c5-9501-2fe7596ef10b",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 2
+            },
+            "date": "25/2/2022 5:22:16"
+        },
+        {
+            "id": "2eafb736-ca1e-4ee9-b513-8298472ba3be",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 2,
+                "ketchup": 3,
+                "onion": 3
+            },
+            "date": "25/2/2022 5:28:36"
+        },
+        {
+            "id": "ca44fa46-a13d-4381-9623-533521c48635",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 2,
+                "rice": 4,
+                "onion": 4,
+                "meat": 3
+            },
+            "date": "25/2/2022 5:30:42"
+        },
+        {
+            "id": "993ce6d2-583f-48f1-96ec-02f818abc459",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 7,
+                "chicken": 3
+            },
+            "date": "25/2/2022 5:45:09"
+        },
+        {
+            "id": "af0412b8-56fb-40d2-8bb3-8868ed558934",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 5,
+                "lettuce": 8,
+                "cheese": 4
+            },
+            "date": "25/2/2022 5:48:05"
+        },
+        {
+            "id": "2d0f1510-7967-48d8-ac10-1ec52f1b9c6e",
+            "buyIngredients": {
+                "tomato": 4,
+                "rice": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 5:48:49"
+        },
+        {
+            "id": "9158a96e-5ec7-4195-8232-07ea90360a90",
+            "buyIngredients": {
+                "potato": 3,
+                "onion": 3,
+                "meat": 4
+            },
+            "date": "25/2/2022 5:48:55"
+        },
+        {
+            "id": "c7c11f07-1b8d-417f-9f37-aa328f747711",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 5:49:22"
+        },
+        {
+            "id": "cb7119df-271f-4296-91ef-40cc13008a3e",
+            "buyIngredients": {
+                "rice": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:02:56"
+        },
+        {
+            "id": "4743f4e8-cc3d-44d8-9473-9eb552517a66",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 4,
+                "rice": 4,
+                "ketchup": 3,
+                "lettuce": 3,
+                "onion": 1,
+                "cheese": 4
+            },
+            "date": "25/2/2022 6:02:59"
+        },
+        {
+            "id": "b65fd9bb-378e-4144-b1a1-ef4140d72159",
+            "buyIngredients": {
+                "tomato": 3,
+                "onion": 1,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:03:05"
+        },
+        {
+            "id": "3b5c16c3-c1f3-4dec-91fa-069a5a88015e",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 3,
+                "rice": 1,
+                "ketchup": 4,
+                "lettuce": 7,
+                "onion": 1,
+                "cheese": 6,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:03:06"
+        },
+        {
+            "id": "951ad285-ee9a-410c-bfed-266e84af49e6",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 6,
+                "onion": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:03:10"
+        },
+        {
+            "id": "e2987f2e-0fbe-4952-90b6-6543e47f3e91",
+            "buyIngredients": {
+                "lemon": 1,
+                "chicken": 7
+            },
+            "date": "25/2/2022 6:03:13"
+        },
+        {
+            "id": "6855f9d3-106e-4de9-affc-49dd168e5642",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 4
+            },
+            "date": "25/2/2022 6:03:15"
+        },
+        {
+            "id": "2c084d89-c62d-402b-b6ef-d407f602ec44",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 4,
+                "rice": 3
+            },
+            "date": "25/2/2022 6:03:16"
+        },
+        {
+            "id": "b3261ca9-dcee-44c2-b5ee-30043b0b1715",
+            "buyIngredients": {
+                "tomato": 3,
+                "lettuce": 5,
+                "cheese": 1,
+                "chicken": 1
+            },
+            "date": "25/2/2022 6:03:19"
+        },
+        {
+            "id": "1fc02124-dfc4-4c7c-91c5-0429b06bc9dd",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 4,
+                "ketchup": 1,
+                "lettuce": 1,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:03:22"
+        },
+        {
+            "id": "70baaed1-ffb6-48da-bd08-cfa250571026",
+            "buyIngredients": {
+                "tomato": 2,
+                "rice": 3,
+                "onion": 1
+            },
+            "date": "25/2/2022 6:03:25"
+        },
+        {
+            "id": "14b39640-ad13-4f59-bd0a-5c6b0f10f826",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 4,
+                "rice": 3,
+                "onion": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:03:26"
+        },
+        {
+            "id": "9f112a3a-3aa8-4979-82fc-66c5837b0e62",
+            "buyIngredients": {
+                "lemon": 4,
+                "ketchup": 2,
+                "lettuce": 5,
+                "cheese": 5,
+                "meat": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:03:29"
+        },
+        {
+            "id": "7b1a433f-a307-4088-ad0d-7e4c1ec82100",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 4,
+                "rice": 3,
+                "ketchup": 1,
+                "lettuce": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:03:34"
+        },
+        {
+            "id": "d7fc3c78-b740-4616-9118-f9aa2c0042af",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 3,
+                "ketchup": 3,
+                "onion": 3,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:03:39"
+        },
+        {
+            "id": "4e2a5c68-1e41-41ee-b866-a79540a8ce80",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 1,
+                "potato": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:03:41"
+        },
+        {
+            "id": "0917bc0d-9236-4833-bce5-8a6f535c011d",
+            "buyIngredients": {
+                "tomato": 4,
+                "rice": 4,
+                "onion": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:03:43"
+        },
+        {
+            "id": "96097e58-47cf-4722-9dbb-1dc243577618",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 3
+            },
+            "date": "25/2/2022 6:03:46"
+        },
+        {
+            "id": "9335968c-74e8-496a-bc4a-9fc6e29fcd99",
+            "buyIngredients": {
+                "tomato": 4,
+                "rice": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:03:47"
+        },
+        {
+            "id": "5dbfc6d5-5e48-44c9-bf4b-b41be6569a31",
+            "buyIngredients": {
+                "lemon": 6,
+                "rice": 2,
+                "ketchup": 4,
+                "lettuce": 5,
+                "onion": 4,
+                "cheese": 5,
+                "meat": 4,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:03:48"
+        },
+        {
+            "id": "caac87fe-c869-4d3b-9406-15ff50a179d2",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 2,
+                "lettuce": 5,
+                "cheese": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:03:55"
+        },
+        {
+            "id": "bc81d55f-eaa4-40b2-8313-cab993d3a78f",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 2
+            },
+            "date": "25/2/2022 6:03:58"
+        },
+        {
+            "id": "37f3c90c-b421-40e9-8831-c702e703ceb3",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 2,
+                "potato": 3,
+                "rice": 3,
+                "lettuce": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:03:58"
+        },
+        {
+            "id": "f426c1c9-5df3-4f4c-acd0-59e207365c68",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 5,
+                "onion": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:04:01"
+        },
+        {
+            "id": "47239446-de11-4b13-9554-b81b78033161",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 4
+            },
+            "date": "25/2/2022 6:04:04"
+        },
+        {
+            "id": "d48f907e-8057-44f7-9867-733765db2e61",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 6,
+                "rice": 3,
+                "onion": 1,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:04:05"
+        },
+        {
+            "id": "9b4979c9-c9fd-4ff4-81b1-efab1014f03f",
+            "buyIngredients": {
+                "lemon": 3,
+                "ketchup": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:04:10"
+        },
+        {
+            "id": "083563a5-ca2b-4cd7-b460-d378e48f6a33",
+            "buyIngredients": {
+                "lemon": 3,
+                "rice": 2,
+                "lettuce": 4,
+                "onion": 4,
+                "cheese": 4,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:04:12"
+        },
+        {
+            "id": "0a76f218-0a45-483f-8c18-1b0056d26ac5",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 3,
+                "potato": 3,
+                "ketchup": 1,
+                "lettuce": 4,
+                "chicken": 7
+            },
+            "date": "25/2/2022 6:04:16"
+        },
+        {
+            "id": "af4c7ae2-8556-43e0-8c88-274718886534",
+            "buyIngredients": {
+                "lemon": 4,
+                "rice": 2,
+                "ketchup": 3,
+                "lettuce": 3,
+                "cheese": 3
+            },
+            "date": "25/2/2022 6:04:20"
+        },
+        {
+            "id": "cdd6c676-345d-4ab1-845f-1bc5143eb492",
+            "buyIngredients": {
+                "potato": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:04:23"
+        },
+        {
+            "id": "288e5fb7-edb5-45ab-a99d-a7e96d8348d5",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 5,
+                "rice": 1,
+                "lettuce": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:04:24"
+        },
+        {
+            "id": "48131ede-069b-4763-b7f3-20b973aa89fd",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 1
+            },
+            "date": "25/2/2022 6:04:27"
+        },
+        {
+            "id": "0d1d6d04-1d54-4bdf-9a3f-5a05dbe7468c",
+            "buyIngredients": {
+                "potato": 2,
+                "rice": 2,
+                "ketchup": 3,
+                "onion": 4,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:04:28"
+        },
+        {
+            "id": "ee86a642-eb9f-4744-9dba-c4a024db3591",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 2,
+                "chicken": 5
+            },
+            "date": "25/2/2022 6:04:33"
+        },
+        {
+            "id": "f9ead85b-6677-4137-ab45-6205a0883a2b",
+            "buyIngredients": {
+                "rice": 5
+            },
+            "date": "25/2/2022 6:04:34"
+        },
+        {
+            "id": "81efafe7-92e0-4a6e-b4bd-e6669133b93b",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 4,
+                "ketchup": 4,
+                "onion": 3,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:04:37"
+        },
+        {
+            "id": "ba5a5b8a-7f09-47c0-842a-0ff99111abbd",
+            "buyIngredients": {
+                "tomato": 5,
+                "lemon": 3,
+                "lettuce": 5,
+                "onion": 3,
+                "cheese": 7,
+                "meat": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:04:40"
+        },
+        {
+            "id": "07167d80-f377-4438-83dc-d3a0c0e7d7b9",
+            "buyIngredients": {
+                "rice": 3
+            },
+            "date": "25/2/2022 6:04:45"
+        },
+        {
+            "id": "e7bff093-07de-4686-a281-88ec8565cd6d",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 5,
+                "potato": 2,
+                "rice": 2,
+                "ketchup": 2,
+                "lettuce": 5,
+                "cheese": 3,
+                "meat": 2,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:04:46"
+        },
+        {
+            "id": "aa3f8964-72ce-4d53-ac9b-f63c33516bdb",
+            "buyIngredients": {
+                "lemon": 4,
+                "ketchup": 4,
+                "lettuce": 4,
+                "onion": 3,
+                "cheese": 3,
+                "meat": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:04:51"
+        },
+        {
+            "id": "d81993dc-5324-4ad8-aa51-f03d07c042a8",
+            "buyIngredients": {
+                "tomato": 1,
+                "potato": 4,
+                "rice": 2,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:04:54"
+        },
+        {
+            "id": "d1f25933-3c0c-4b6c-93bb-8b109d30dc26",
+            "buyIngredients": {
+                "tomato": 2,
+                "ketchup": 2,
+                "lettuce": 6,
+                "cheese": 3,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:04:58"
+        },
+        {
+            "id": "4440a897-c422-4bf9-9e50-421eb16b5eac",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 4,
+                "potato": 4,
+                "rice": 4
+            },
+            "date": "25/2/2022 6:05:03"
+        },
+        {
+            "id": "b24cc194-18d8-471b-94fa-1a58a9e105ca",
+            "buyIngredients": {
+                "tomato": 3,
+                "ketchup": 3,
+                "lettuce": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:05:06"
+        },
+        {
+            "id": "f90520bd-2b4e-4e03-a5e5-5c7b0eec15af",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 6
+            },
+            "date": "25/2/2022 6:05:07"
+        },
+        {
+            "id": "13cbb47d-f73c-4602-8b77-ac5e91655c38",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 3,
+                "onion": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:05:10"
+        },
+        {
+            "id": "35800b87-304b-47f2-b45d-f389baf56fdf",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 3,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:05:12"
+        },
+        {
+            "id": "0fd3c5c7-ffa4-43c1-b94e-6fa981e66b1c",
+            "buyIngredients": {
+                "potato": 3,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:05:14"
+        },
+        {
+            "id": "61ed3ca4-0eaf-45bd-accb-919291290ecf",
+            "buyIngredients": {
+                "lemon": 3,
+                "rice": 3,
+                "ketchup": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:05:17"
+        },
+        {
+            "id": "ac5c52dc-8c0f-4cbd-a2f8-2ce80da4a453",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 2,
+                "lettuce": 7,
+                "cheese": 4,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:05:20"
+        },
+        {
+            "id": "139bb582-0e11-4bba-ac1b-6274290c1055",
+            "buyIngredients": {
+                "lemon": 2,
+                "potato": 3,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:05:25"
+        },
+        {
+            "id": "c8d5f485-37ea-4ea8-8b64-81461d54a36d",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 5,
+                "rice": 1,
+                "ketchup": 2,
+                "lettuce": 4,
+                "cheese": 4,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:05:28"
+        },
+        {
+            "id": "c589680d-4d86-41e9-93ab-1fd79bdaec74",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 2,
+                "rice": 2,
+                "ketchup": 3,
+                "onion": 6
+            },
+            "date": "25/2/2022 6:05:33"
+        },
+        {
+            "id": "849f2c60-c2a4-4ac3-8fe1-14264b06ddd3",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 1,
+                "ketchup": 2,
+                "lettuce": 6,
+                "cheese": 5,
+                "meat": 1,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:05:37"
+        },
+        {
+            "id": "1fd8a222-1b59-46d2-ae0a-b8f6a81ad788",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 6,
+                "potato": 2,
+                "rice": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:05:40"
+        },
+        {
+            "id": "13b8c616-026d-4e20-a6d6-abe44e83f6f5",
+            "buyIngredients": {
+                "ketchup": 3,
+                "lettuce": 7,
+                "cheese": 5,
+                "meat": 3
+            },
+            "date": "25/2/2022 6:05:46"
+        },
+        {
+            "id": "0ad44180-6a46-48aa-a313-2c4acfef42f4",
+            "buyIngredients": {
+                "tomato": 5,
+                "lemon": 3,
+                "potato": 3,
+                "ketchup": 3,
+                "lettuce": 4,
+                "cheese": 2,
+                "meat": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:05:49"
+        },
+        {
+            "id": "b5ba0deb-088a-4724-9afa-54733a5278a2",
+            "buyIngredients": {
+                "lemon": 3,
+                "lettuce": 6,
+                "onion": 4,
+                "cheese": 6,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:05:54"
+        },
+        {
+            "id": "e1159053-1a06-4844-bbc9-b6b1c1ec1bbf",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 3,
+                "rice": 4
+            },
+            "date": "25/2/2022 6:05:58"
+        },
+        {
+            "id": "5f72ab7b-5ff2-43ac-99ef-698b27e49ce9",
+            "buyIngredients": {
+                "tomato": 2,
+                "lemon": 3,
+                "ketchup": 4,
+                "lettuce": 5,
+                "cheese": 4,
+                "meat": 3,
+                "chicken": 1
+            },
+            "date": "25/2/2022 6:06:00"
+        },
+        {
+            "id": "b9652ac8-ce3d-4412-bc24-9bc4b2b719c2",
+            "buyIngredients": {
+                "tomato": 2,
+                "rice": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:06:06"
+        },
+        {
+            "id": "75a441e9-258c-4d05-b084-aefea564675f",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 4,
+                "onion": 1
+            },
+            "date": "25/2/2022 6:06:08"
+        },
+        {
+            "id": "44a46735-3263-4da1-94ed-1cd647779711",
+            "buyIngredients": {
+                "lemon": 3,
+                "lettuce": 5,
+                "onion": 4,
+                "cheese": 4,
+                "meat": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:06:10"
+        },
+        {
+            "id": "e5e2cced-2f40-4163-830b-eaa11c945b5e",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 3,
+                "rice": 4,
+                "ketchup": 3
+            },
+            "date": "25/2/2022 6:06:13"
+        },
+        {
+            "id": "6e61794d-b96e-48d0-a753-9992d571bcef",
+            "buyIngredients": {
+                "lemon": 2,
+                "potato": 3,
+                "lettuce": 2,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:06:15"
+        },
+        {
+            "id": "c3f14345-a90d-493d-836e-685c601f548c",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 4,
+                "ketchup": 4,
+                "lettuce": 5,
+                "onion": 4,
+                "cheese": 4,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:06:19"
+        },
+        {
+            "id": "c15afa74-8134-44f9-a677-d87789003a70",
+            "buyIngredients": {
+                "lemon": 2,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:06:23"
+        },
+        {
+            "id": "64a608f2-28f4-44c2-b310-fb4e2eae73c2",
+            "buyIngredients": {
+                "tomato": 1,
+                "rice": 3
+            },
+            "date": "25/2/2022 6:06:24"
+        },
+        {
+            "id": "2f9211c1-4c9b-4501-a27c-1d38a6b14fe1",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 4,
+                "potato": 3,
+                "rice": 2,
+                "lettuce": 2
+            },
+            "date": "25/2/2022 6:06:26"
+        },
+        {
+            "id": "ff43cacb-31bd-4ad9-8b0a-c4f3a2e2d413",
+            "buyIngredients": {
+                "potato": 4,
+                "chicken": 5
+            },
+            "date": "25/2/2022 6:06:32"
+        },
+        {
+            "id": "4a8bfcbb-3d16-4726-a67f-106d388ae61d",
+            "buyIngredients": {
+                "potato": 2,
+                "rice": 2,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:06:33"
+        },
+        {
+            "id": "e902b2f7-71cb-4e1b-828b-4b5cd70494f9",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 3,
+                "rice": 3,
+                "lettuce": 2,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:06:35"
+        },
+        {
+            "id": "c70ece60-648d-4b1b-9efa-6a27e3f968d0",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 2
+            },
+            "date": "25/2/2022 6:06:39"
+        },
+        {
+            "id": "272ba7a3-fef4-4d3e-a72b-4f8bd2914137",
+            "buyIngredients": {
+                "tomato": 4,
+                "rice": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:06:41"
+        },
+        {
+            "id": "2d510e1e-f70a-4136-828f-ddb4fae8026b",
+            "buyIngredients": {
+                "rice": 5,
+                "onion": 2,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:06:42"
+        },
+        {
+            "id": "f99c4fcc-5d8c-49ff-8f7f-63e3623de991",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 2,
+                "potato": 2,
+                "ketchup": 5,
+                "lettuce": 6,
+                "cheese": 4,
+                "meat": 2,
+                "chicken": 1
+            },
+            "date": "25/2/2022 6:06:44"
+        },
+        {
+            "id": "8ab5be05-cd18-4aca-86e4-dceec512d7a6",
+            "buyIngredients": {
+                "rice": 2,
+                "onion": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:06:51"
+        },
+        {
+            "id": "bf83c903-863c-45e0-a05c-9e4140224a16",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 3,
+                "rice": 1,
+                "meat": 3
+            },
+            "date": "25/2/2022 6:06:52"
+        },
+        {
+            "id": "de0f531b-9ac8-4c1e-8caa-cd9139e2f723",
+            "buyIngredients": {
+                "lemon": 4,
+                "rice": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:06:54"
+        },
+        {
+            "id": "b3e47b90-28eb-4f20-96c4-10322dd0791c",
+            "buyIngredients": {
+                "potato": 3,
+                "lettuce": 1,
+                "onion": 1
+            },
+            "date": "25/2/2022 6:06:56"
+        },
+        {
+            "id": "12a2792e-06f1-4b9f-a50d-57f0efc4c9af",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 4,
+                "lettuce": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:06:57"
+        },
+        {
+            "id": "938c6874-79db-4cbe-84f7-18c394858086",
+            "buyIngredients": {
+                "tomato": 4,
+                "ketchup": 2,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:07:00"
+        },
+        {
+            "id": "ee3498a1-83d6-4dfd-b32f-71accc873785",
+            "buyIngredients": {
+                "potato": 3,
+                "rice": 1,
+                "onion": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:07:01"
+        },
+        {
+            "id": "2f07e89a-5280-4c0d-abf0-e7a6ad6a600c",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 4,
+                "potato": 3,
+                "rice": 1,
+                "ketchup": 1,
+                "lettuce": 3,
+                "cheese": 4,
+                "meat": 1,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:07:03"
+        },
+        {
+            "id": "6e3c168e-6812-4e83-b36b-2febe46de424",
+            "buyIngredients": {
+                "potato": 1,
+                "rice": 4,
+                "ketchup": 3,
+                "onion": 1,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:07:08"
+        },
+        {
+            "id": "52db1527-9cfe-450f-9f8d-f7b8a3f6ba29",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 3,
+                "ketchup": 1,
+                "onion": 5,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:07:10"
+        },
+        {
+            "id": "f4f4ff7c-9194-47bb-8815-010c97cc0f4f",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 3,
+                "ketchup": 2,
+                "onion": 1,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:07:13"
+        },
+        {
+            "id": "ed0a1492-6065-4d48-81c2-58f1d3f74412",
+            "buyIngredients": {
+                "potato": 5,
+                "rice": 4,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:07:16"
+        },
+        {
+            "id": "8815a4e4-82cf-4d55-83d7-89d9c66c52b6",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 2,
+                "potato": 1,
+                "ketchup": 4,
+                "lettuce": 5,
+                "cheese": 2,
+                "meat": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:07:18"
+        },
+        {
+            "id": "b9e6d434-27ca-40c4-8872-1ff61f859dfe",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 4,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:07:24"
+        },
+        {
+            "id": "5db699e7-0385-45fb-9248-d45665b8fc0d",
+            "buyIngredients": {
+                "potato": 3,
+                "ketchup": 5,
+                "onion": 1
+            },
+            "date": "25/2/2022 6:07:26"
+        },
+        {
+            "id": "54eec6c7-7bff-41df-99b3-d63cb2cdaf79",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 3,
+                "rice": 2,
+                "lettuce": 6,
+                "onion": 2,
+                "cheese": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:07:29"
+        },
+        {
+            "id": "9152df02-84a7-4516-8407-09d2809bcc09",
+            "buyIngredients": {
+                "potato": 3,
+                "ketchup": 1,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:07:33"
+        },
+        {
+            "id": "e03b37a5-b889-447e-827f-243ec4f2524d",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 4,
+                "rice": 1,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:07:34"
+        },
+        {
+            "id": "abd83be3-bad7-4212-8056-0ba1f82ba385",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 2,
+                "potato": 4,
+                "rice": 4,
+                "lettuce": 3,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:07:37"
+        },
+        {
+            "id": "4c4f5a2f-0d5f-4b1f-a3a6-d31866f25510",
+            "buyIngredients": {
+                "potato": 2,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:07:39"
+        },
+        {
+            "id": "8eda6f22-6c8c-4f6c-9dca-6f0577774b57",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 3,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:07:40"
+        },
+        {
+            "id": "0629bc0f-f0f1-486a-b528-ae76f7c0e5da",
+            "buyIngredients": {
+                "lemon": 2,
+                "ketchup": 3,
+                "lettuce": 2,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:07:41"
+        },
+        {
+            "id": "5d1fe25e-de6f-4f7f-9fe7-9c44a22ce79b",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 5,
+                "rice": 2,
+                "onion": 2
+            },
+            "date": "25/2/2022 6:07:45"
+        },
+        {
+            "id": "0c22a91d-e5ee-4ebf-85fb-8b5b6da1fdae",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 3,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:07:49"
+        },
+        {
+            "id": "35af4e3c-3e11-45c5-8d53-8acf9b7ccb7d",
+            "buyIngredients": {
+                "potato": 6,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:07:51"
+        },
+        {
+            "id": "bef99d72-71df-4a76-97ff-603491e97b19",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 2,
+                "rice": 4,
+                "ketchup": 3,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:07:52"
+        },
+        {
+            "id": "6cc2eca5-6c13-4444-bcd0-6e9103c4806d",
+            "buyIngredients": {
+                "tomato": 1,
+                "potato": 4
+            },
+            "date": "25/2/2022 6:07:55"
+        },
+        {
+            "id": "3b136e5c-80ee-4134-82ca-9bdd65c2b4dc",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 6,
+                "rice": 3,
+                "onion": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:07:56"
+        },
+        {
+            "id": "b06bf544-66f2-4224-8ce5-1a271f151729",
+            "buyIngredients": {
+                "potato": 2
+            },
+            "date": "25/2/2022 6:07:59"
+        },
+        {
+            "id": "ea22dbe1-f5cc-44f0-9218-fb7d1fda8f19",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 3,
+                "ketchup": 4,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:08:00"
+        },
+        {
+            "id": "9d2808c3-7ace-4b2e-bdf0-b0db6577636d",
+            "buyIngredients": {
+                "potato": 8,
+                "rice": 2
+            },
+            "date": "25/2/2022 6:08:02"
+        },
+        {
+            "id": "2b663220-7ae1-4ae9-a021-39dec2105e57",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 3,
+                "rice": 3,
+                "lettuce": 1,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:08:04"
+        },
+        {
+            "id": "5bd243ad-c7f2-4159-af20-1c8e552d46ef",
+            "buyIngredients": {
+                "potato": 2,
+                "ketchup": 3,
+                "onion": 4,
+                "meat": 4
+            },
+            "date": "25/2/2022 6:08:07"
+        },
+        {
+            "id": "baeedced-a7d8-4dad-9478-360b2bc3c4ac",
+            "buyIngredients": {
+                "potato": 6,
+                "rice": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:08:08"
+        },
+        {
+            "id": "73170f53-1677-4190-98d7-1c0fbd42407e",
+            "buyIngredients": {
+                "tomato": 5,
+                "rice": 3,
+                "onion": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:08:11"
+        },
+        {
+            "id": "ea47f9b0-a46e-4ca7-bad0-2b682c173327",
+            "buyIngredients": {
+                "potato": 1,
+                "onion": 2
+            },
+            "date": "25/2/2022 6:08:13"
+        },
+        {
+            "id": "0673d965-ac94-45df-973a-7ecb0b2927f4",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 3,
+                "rice": 2,
+                "lettuce": 2
+            },
+            "date": "25/2/2022 6:08:14"
+        },
+        {
+            "id": "6fdba911-1199-4856-b352-70445d417888",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 3,
+                "ketchup": 4,
+                "onion": 5
+            },
+            "date": "25/2/2022 6:08:17"
+        },
+        {
+            "id": "6ee98f5b-2d4d-48ee-ac9f-5a5c1f380cae",
+            "buyIngredients": {
+                "rice": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:08:20"
+        },
+        {
+            "id": "7d5cb908-cf5c-47df-91ee-4b745dafc4fa",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:08:23"
+        },
+        {
+            "id": "1c3429e9-308f-4636-8374-fdb4ceb368c1",
+            "buyIngredients": {
+                "rice": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:08:24"
+        },
+        {
+            "id": "63b61ba7-e7a2-4417-a3f3-27ae6707e15e",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 2,
+                "rice": 3,
+                "onion": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:08:26"
+        },
+        {
+            "id": "fa1701a7-7f89-4660-9c27-ad922f5c8e2b",
+            "buyIngredients": {
+                "potato": 6,
+                "rice": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:08:29"
+        },
+        {
+            "id": "4b67d124-0ffa-498d-9169-12337af4183f",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 5,
+                "ketchup": 1,
+                "lettuce": 5,
+                "cheese": 4,
+                "meat": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:08:31"
+        },
+        {
+            "id": "2b243e9f-678c-4272-9bc8-a3de2bfd1d74",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 3,
+                "ketchup": 2,
+                "lettuce": 4,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:08:38"
+        },
+        {
+            "id": "a426cbf4-e772-4ebf-8f5e-37234b20c0cb",
+            "buyIngredients": {
+                "tomato": 5,
+                "rice": 3,
+                "onion": 2
+            },
+            "date": "25/2/2022 6:08:44"
+        },
+        {
+            "id": "9b015c27-bb14-4704-8324-cd31730b7429",
+            "buyIngredients": {
+                "rice": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:08:46"
+        },
+        {
+            "id": "fd8c1a7c-f9a7-4a95-a0b1-61f0e9644982",
+            "buyIngredients": {
+                "lemon": 4,
+                "chicken": 5
+            },
+            "date": "25/2/2022 6:08:48"
+        },
+        {
+            "id": "543dfd84-386e-4e6a-8bc8-9f7f2c8e6476",
+            "buyIngredients": {
+                "tomato": 2,
+                "lemon": 3,
+                "rice": 3,
+                "ketchup": 3,
+                "lettuce": 4,
+                "onion": 2,
+                "cheese": 6,
+                "meat": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:28:33"
+        },
+        {
+            "id": "1d41a8f9-7e1a-45a4-9015-0668e330ff28",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 6,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:30:04"
+        },
+        {
+            "id": "302d37ec-c026-4957-8a7b-7c9e2c876dbc",
+            "buyIngredients": {
+                "potato": 2,
+                "rice": 2,
+                "ketchup": 4,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:31:22"
+        },
+        {
+            "id": "60c296af-fdc0-43ea-8b60-581ad3c5bea0",
+            "buyIngredients": {
+                "potato": 3,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:33:20"
+        },
+        {
+            "id": "c4a94941-f3e0-4023-a109-b0d4221ee496",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 3,
+                "potato": 4,
+                "rice": 3,
+                "lettuce": 2,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:33:46"
+        },
+        {
+            "id": "a05c8543-1e3b-4857-a359-4effe167e4cf",
+            "buyIngredients": {
+                "potato": 2
+            },
+            "date": "25/2/2022 6:34:29"
+        },
+        {
+            "id": "91e083ff-33a6-4575-b478-a52a1fa2b6a0",
+            "buyIngredients": {
+                "rice": 4
+            },
+            "date": "25/2/2022 6:34:39"
+        },
+        {
+            "id": "5c3d9da3-8326-488d-95a3-58237eec8e70",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 4,
+                "potato": 4,
+                "lettuce": 2,
+                "chicken": 6
+            },
+            "date": "25/2/2022 6:36:14"
+        },
+        {
+            "id": "69bb5505-9cc3-41ad-b1ed-c38f77a971b7",
+            "buyIngredients": {
+                "lemon": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:36:31"
+        },
+        {
+            "id": "c9732eda-41dc-4d3a-b7ae-44e30204e074",
+            "buyIngredients": {
+                "lemon": 3,
+                "rice": 3,
+                "ketchup": 2,
+                "lettuce": 5,
+                "onion": 3,
+                "cheese": 2,
+                "meat": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:39:15"
+        },
+        {
+            "id": "35f361f1-83e5-4bb7-be60-26db3ff68a3e",
+            "buyIngredients": {
+                "tomato": 2,
+                "rice": 4,
+                "chicken": 1
+            },
+            "date": "25/2/2022 6:39:33"
+        },
+        {
+            "id": "dd587c17-c277-4c70-9e10-c5921825ac25",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 4,
+                "ketchup": 4,
+                "onion": 5
+            },
+            "date": "25/2/2022 6:39:43"
+        },
+        {
+            "id": "74b8f312-3536-4349-adf4-71fd3e3d6268",
+            "buyIngredients": {
+                "potato": 2
+            },
+            "date": "25/2/2022 6:39:56"
+        },
+        {
+            "id": "c247b023-5499-4259-9a79-812f7b29d2bb",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 4,
+                "ketchup": 3,
+                "onion": 3,
+                "meat": 3
+            },
+            "date": "25/2/2022 6:40:39"
+        },
+        {
+            "id": "a79f2d59-4d35-4670-a92d-94c21e36c81a",
+            "buyIngredients": {
+                "potato": 3,
+                "rice": 2,
+                "lettuce": 3,
+                "onion": 2
+            },
+            "date": "25/2/2022 6:40:53"
+        },
+        {
+            "id": "6bc409e2-e6e2-4377-a36a-982cab6b47e7",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 2,
+                "onion": 2
+            },
+            "date": "25/2/2022 6:41:02"
+        },
+        {
+            "id": "2a143772-d15d-46ef-a5a9-db2389fef742",
+            "buyIngredients": {
+                "tomato": 1,
+                "rice": 3,
+                "onion": 2,
+                "chicken": 3
+            },
+            "date": "25/2/2022 6:42:06"
+        },
+        {
+            "id": "34c2bf31-ac29-464e-9a8c-4058a46a7ab4",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 5,
+                "rice": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:42:16"
+        },
+        {
+            "id": "249992de-ad71-4639-bb9f-489ac90ce0a0",
+            "buyIngredients": {
+                "potato": 4,
+                "onion": 2
+            },
+            "date": "25/2/2022 6:42:27"
+        },
+        {
+            "id": "44271573-e59c-4f77-9c4a-5e3cac3bee62",
+            "buyIngredients": {
+                "rice": 5,
+                "chicken": 1
+            },
+            "date": "25/2/2022 6:46:07"
+        },
+        {
+            "id": "862d4e95-0fb9-4c2c-9b2c-d2a07c912d2a",
+            "buyIngredients": {
+                "tomato": 1,
+                "potato": 3,
+                "onion": 1,
+                "meat": 3
+            },
+            "date": "25/2/2022 6:50:37"
+        },
+        {
+            "id": "063d84fc-58c8-4f69-89b5-43bee5442d01",
+            "buyIngredients": {
+                "tomato": 5,
+                "potato": 5,
+                "ketchup": 3,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:52:33"
+        },
+        {
+            "id": "f368cdcd-3983-43e6-a657-a0969799eeb8",
+            "buyIngredients": {
+                "lemon": 2,
+                "potato": 4,
+                "rice": 1,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:52:52"
+        },
+        {
+            "id": "bafe153f-f86d-44b3-83c0-fa9ea7a591f0",
+            "buyIngredients": {
+                "rice": 1,
+                "lettuce": 4,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:53:47"
+        },
+        {
+            "id": "62e97c77-13e1-431c-8555-e0dd01f8fc59",
+            "buyIngredients": {
+                "potato": 5,
+                "rice": 5,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:53:54"
+        },
+        {
+            "id": "e0a58fc9-1b29-4ae9-860d-fa047fa3e9a3",
+            "buyIngredients": {
+                "tomato": 2,
+                "lemon": 3,
+                "potato": 2,
+                "ketchup": 1,
+                "lettuce": 4,
+                "cheese": 6,
+                "meat": 3
+            },
+            "date": "25/2/2022 6:54:00"
+        },
+        {
+            "id": "f61b908a-69c1-4f23-a4a8-3494e3cd8484",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 3,
+                "potato": 2,
+                "onion": 4
+            },
+            "date": "25/2/2022 6:56:01"
+        },
+        {
+            "id": "2c24d7c0-999f-47cc-900f-e4d815fdb692",
+            "buyIngredients": {
+                "potato": 3,
+                "meat": 1
+            },
+            "date": "25/2/2022 6:56:03"
+        },
+        {
+            "id": "07776e22-2416-4aa9-ad11-5e496ab79b19",
+            "buyIngredients": {
+                "potato": 3,
+                "rice": 3,
+                "lettuce": 2,
+                "meat": 3
+            },
+            "date": "25/2/2022 6:56:06"
+        },
+        {
+            "id": "d5b339f7-3bff-4a7b-bf1d-f29306fafbb8",
+            "buyIngredients": {
+                "tomato": 2,
+                "rice": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:56:10"
+        },
+        {
+            "id": "61de4bd5-dc95-4835-b37d-78d170f00913",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 3,
+                "potato": 3,
+                "onion": 3
+            },
+            "date": "25/2/2022 6:56:53"
+        },
+        {
+            "id": "724a17e6-23a1-4542-a7bd-aef08bd47adc",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 4,
+                "rice": 2,
+                "ketchup": 4,
+                "lettuce": 5,
+                "cheese": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:56:55"
+        },
+        {
+            "id": "a9106176-83a7-487b-9af6-382d45396c02",
+            "buyIngredients": {
+                "tomato": 1,
+                "lettuce": 7,
+                "cheese": 4,
+                "meat": 3,
+                "chicken": 2
+            },
+            "date": "25/2/2022 6:57:20"
+        },
+        {
+            "id": "d6d84c35-5081-46fe-ba57-7baad92b401e",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 4,
+                "rice": 4,
+                "ketchup": 3,
+                "lettuce": 3,
+                "onion": 3,
+                "cheese": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:57:27"
+        },
+        {
+            "id": "6fc741f4-71bc-415a-861f-71c8374328bb",
+            "buyIngredients": {
+                "lemon": 4,
+                "ketchup": 1,
+                "lettuce": 6,
+                "cheese": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:57:48"
+        },
+        {
+            "id": "d608fb36-2c69-4c84-a240-a32920cc3104",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 5,
+                "ketchup": 2,
+                "onion": 2,
+                "meat": 2
+            },
+            "date": "25/2/2022 6:57:53"
+        },
+        {
+            "id": "31872c56-919a-4dfd-8c2e-138216ac5971",
+            "buyIngredients": {
+                "lemon": 4,
+                "ketchup": 4,
+                "chicken": 5
+            },
+            "date": "25/2/2022 6:59:21"
+        },
+        {
+            "id": "d3ed3f59-03c4-4fe3-b700-e372224a95b7",
+            "buyIngredients": {
+                "tomato": 2,
+                "rice": 6,
+                "onion": 2,
+                "chicken": 1
+            },
+            "date": "25/2/2022 6:59:52"
+        },
+        {
+            "id": "aa15596e-3185-4c2f-8766-e834182f3db3",
+            "buyIngredients": {
+                "tomato": 4,
+                "lettuce": 7,
+                "cheese": 4,
+                "meat": 4,
+                "chicken": 4
+            },
+            "date": "25/2/2022 6:59:57"
+        },
+        {
+            "id": "76c9f9dd-0d1f-4046-92a4-ace34f7186bb",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 2,
+                "ketchup": 3,
+                "lettuce": 3,
+                "onion": 1,
+                "cheese": 4
+            },
+            "date": "25/2/2022 7:00:35"
+        },
+        {
+            "id": "33f65f03-376b-4ccc-82f5-a3b7616a111e",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 4,
+                "onion": 5
+            },
+            "date": "25/2/2022 7:01:00"
+        },
+        {
+            "id": "fcfde59a-6aba-431a-a0c0-fb8e9d06ac87",
+            "buyIngredients": {
+                "lemon": 3,
+                "rice": 4,
+                "ketchup": 3,
+                "lettuce": 2,
+                "chicken": 4
+            },
+            "date": "25/2/2022 7:01:11"
+        },
+        {
+            "id": "0b52e96c-60ca-4fba-b49f-7748d55c74d2",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 4,
+                "onion": 1,
+                "meat": 2
+            },
+            "date": "25/2/2022 7:02:36"
+        },
+        {
+            "id": "0f224dbc-b39a-4b17-b7e3-a0a59405ed12",
+            "buyIngredients": {
+                "tomato": 1,
+                "potato": 1,
+                "ketchup": 4,
+                "onion": 5
+            },
+            "date": "25/2/2022 7:02:51"
+        },
+        {
+            "id": "0cb1fc35-cc2f-4471-a26c-3bb333fe6485",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 5,
+                "rice": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:03:51"
+        },
+        {
+            "id": "71d1b28c-4ec1-4862-98e2-1ac1d8a2c9c8",
+            "buyIngredients": {
+                "rice": 4,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:04:47"
+        },
+        {
+            "id": "deeb450e-340d-4f55-a050-48054ac7e975",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 3,
+                "potato": 1,
+                "lettuce": 6,
+                "onion": 3,
+                "cheese": 4,
+                "meat": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:04:57"
+        },
+        {
+            "id": "25a35c90-d730-435f-860e-7d0374cc9505",
+            "buyIngredients": {
+                "rice": 2
+            },
+            "date": "25/2/2022 7:05:28"
+        },
+        {
+            "id": "04b03511-4741-424e-9c7a-73c66f7994bc",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 1,
+                "rice": 1,
+                "ketchup": 3,
+                "chicken": 6
+            },
+            "date": "25/2/2022 7:05:31"
+        },
+        {
+            "id": "c9e10f0d-7669-478b-bfe8-e139a0b9e8c6",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 5,
+                "potato": 4,
+                "rice": 1,
+                "lettuce": 6,
+                "cheese": 5,
+                "meat": 2
+            },
+            "date": "25/2/2022 7:05:49"
+        },
+        {
+            "id": "238c838f-8d1c-4cc3-87a0-e35831556eb2",
+            "buyIngredients": {
+                "lemon": 4,
+                "rice": 3,
+                "ketchup": 5,
+                "lettuce": 3,
+                "onion": 2,
+                "cheese": 4,
+                "meat": 1,
+                "chicken": 5
+            },
+            "date": "25/2/2022 7:06:33"
+        },
+        {
+            "id": "32391b06-57b6-4b3c-b1d6-9708112ee868",
+            "buyIngredients": {
+                "tomato": 1,
+                "lettuce": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:07:17"
+        },
+        {
+            "id": "8d85e273-fe79-4394-aa89-7eab19f991cb",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 3,
+                "onion": 2,
+                "meat": 4
+            },
+            "date": "25/2/2022 7:07:20"
+        },
+        {
+            "id": "56a7dbd1-dfc6-4252-8c95-b64b0da6383e",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 3,
+                "rice": 4,
+                "onion": 4
+            },
+            "date": "25/2/2022 7:07:24"
+        },
+        {
+            "id": "8d03daeb-e90a-4aaa-9335-1d9f8fe05a6c",
+            "buyIngredients": {
+                "tomato": 4,
+                "potato": 5
+            },
+            "date": "25/2/2022 7:10:16"
+        },
+        {
+            "id": "9a31ef59-f21c-4702-9830-2a5bcbcbcb2f",
+            "buyIngredients": {
+                "rice": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:10:19"
+        },
+        {
+            "id": "c4a62844-416f-4cc3-98bb-50cee75a4ba4",
+            "buyIngredients": {
+                "tomato": 1,
+                "potato": 4,
+                "rice": 4,
+                "ketchup": 3,
+                "onion": 4
+            },
+            "date": "25/2/2022 7:10:29"
+        },
+        {
+            "id": "c5fbf0ca-97f5-4e29-a31d-2e54173c9b6e",
+            "buyIngredients": {
+                "tomato": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:11:03"
+        },
+        {
+            "id": "f3c861fb-c280-414f-b299-ab834ad8f1e1",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 7:11:05"
+        },
+        {
+            "id": "a8aa003d-8873-4d46-b31f-fcc5e8a32028",
+            "buyIngredients": {
+                "tomato": 2,
+                "rice": 4,
+                "onion": 4
+            },
+            "date": "25/2/2022 7:11:08"
+        },
+        {
+            "id": "725ab3aa-8fe9-4719-a300-930e0abc6341",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 2,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:11:21"
+        },
+        {
+            "id": "0d5f1e2d-915a-4d9f-8a27-4eaf7a2ec2b3",
+            "buyIngredients": {
+                "chicken": 5
+            },
+            "date": "25/2/2022 7:11:24"
+        },
+        {
+            "id": "5500ed2f-dd3f-486b-b815-6dab3f6e7dc0",
+            "buyIngredients": {
+                "lemon": 3,
+                "potato": 2,
+                "rice": 2,
+                "ketchup": 4,
+                "lettuce": 1,
+                "chicken": 4
+            },
+            "date": "25/2/2022 7:11:26"
+        },
+        {
+            "id": "1040e220-12af-4a5e-8259-01ff0d668518",
+            "buyIngredients": {
+                "tomato": 1,
+                "lemon": 3,
+                "lettuce": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:22:49"
+        },
+        {
+            "id": "4bb04464-fadd-42b9-9d20-c147e76cd70b",
+            "buyIngredients": {
+                "tomato": 5,
+                "potato": 4,
+                "rice": 1,
+                "onion": 3
+            },
+            "date": "25/2/2022 7:22:54"
+        },
+        {
+            "id": "6467ca99-081b-497c-a356-b5b3e734077f",
+            "buyIngredients": {
+                "rice": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:23:11"
+        },
+        {
+            "id": "87464faf-e03b-47bd-a30e-16eae14ed984",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 3,
+                "rice": 1,
+                "meat": 1
+            },
+            "date": "25/2/2022 7:23:12"
+        },
+        {
+            "id": "a90928be-2cc2-46b8-bcc1-acc4a08a2f23",
+            "buyIngredients": {
+                "tomato": 4,
+                "rice": 3,
+                "ketchup": 4,
+                "lettuce": 5,
+                "onion": 1,
+                "cheese": 4,
+                "meat": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:23:15"
+        },
+        {
+            "id": "1a96b9fb-886a-4ab5-af57-1045520a2dfa",
+            "buyIngredients": {
+                "lemon": 1,
+                "potato": 3,
+                "lettuce": 2,
+                "onion": 2
+            },
+            "date": "25/2/2022 7:23:22"
+        },
+        {
+            "id": "19007c40-144e-4333-90d1-eabcc85271a9",
+            "buyIngredients": {
+                "potato": 6,
+                "rice": 1,
+                "chicken": 1
+            },
+            "date": "25/2/2022 7:23:37"
+        },
+        {
+            "id": "a7cd6ab5-4e86-4287-8611-8a9337749d60",
+            "buyIngredients": {
+                "tomato": 4,
+                "lemon": 5,
+                "rice": 1,
+                "chicken": 5
+            },
+            "date": "25/2/2022 7:23:52"
+        },
+        {
+            "id": "f8264ff1-e2b3-4fe2-bac4-4b4238f3edc6",
+            "buyIngredients": {
+                "lemon": 4,
+                "potato": 1,
+                "rice": 3,
+                "lettuce": 2,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:24:00"
+        },
+        {
+            "id": "4d20443a-e435-48f9-af4b-78c5f2a1c9aa",
+            "buyIngredients": {
+                "rice": 3,
+                "onion": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:26:18"
+        },
+        {
+            "id": "2eb31ef2-5283-43c4-82f4-d249fc366a8e",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 1,
+                "ketchup": 3,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:29:11"
+        },
+        {
+            "id": "068ce02d-d568-453b-a0c0-8c73e856b5f1",
+            "buyIngredients": {
+                "lemon": 2,
+                "potato": 4,
+                "lettuce": 1
+            },
+            "date": "25/2/2022 7:29:38"
+        },
+        {
+            "id": "4e960ca5-c93d-41ae-b64f-64d3d6355c63",
+            "buyIngredients": {
+                "tomato": 3,
+                "potato": 4,
+                "rice": 4,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:29:41"
+        },
+        {
+            "id": "72f9704e-4579-4d66-bc76-7b863c288a5e",
+            "buyIngredients": {
+                "potato": 4,
+                "onion": 6,
+                "meat": 3
+            },
+            "date": "25/2/2022 7:30:18"
+        },
+        {
+            "id": "19b33fe2-7f36-4f3d-b655-56a9bcc99f83",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 5,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:30:27"
+        },
+        {
+            "id": "7b55287e-a06c-4b34-bbdb-198bbcadf94b",
+            "buyIngredients": {
+                "tomato": 2,
+                "chicken": 2
+            },
+            "date": "25/2/2022 7:31:55"
+        },
+        {
+            "id": "10b3203a-9271-4a02-b015-b44a113ce4ad",
+            "buyIngredients": {
+                "tomato": 3,
+                "rice": 4,
+                "chicken": 3
+            },
+            "date": "25/2/2022 7:31:57"
+        },
+        {
+            "id": "a4bd0ade-4799-49f5-a50b-0afa91e4ab51",
+            "buyIngredients": {
+                "lemon": 3,
+                "ketchup": 3,
+                "lettuce": 5,
+                "onion": 2,
+                "cheese": 4
+            },
+            "date": "25/2/2022 7:40:09"
+        },
+        {
+            "id": "3cf7fdb2-8131-4182-b8ea-3c5a75ccfd95",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 3,
+                "rice": 3,
+                "ketchup": 1,
+                "onion": 4,
+                "meat": 2
+            },
+            "date": "25/2/2022 7:40:15"
+        },
+        {
+            "id": "0c802dd3-243e-411c-b4e2-ea2a652d0547",
+            "buyIngredients": {
+                "tomato": 3,
+                "lemon": 2,
+                "potato": 3,
+                "ketchup": 1,
+                "lettuce": 3,
+                "chicken": 4
+            },
+            "date": "25/2/2022 7:40:21"
+        },
+        {
+            "id": "a8481558-4f41-4674-aa2f-1dfe55162764",
+            "buyIngredients": {
+                "potato": 4,
+                "rice": 4,
+                "chicken": 5
+            },
+            "date": "25/2/2022 7:43:27"
+        },
+        {
+            "id": "8abb12df-fb3a-4606-9c7b-48d9360b99f4",
+            "buyIngredients": {
+                "tomato": 2,
+                "potato": 5,
+                "ketchup": 2,
+                "onion": 2
+            },
+            "date": "25/2/2022 7:43:46"
+        },
+        {
+            "id": "1a5b35ce-c52d-4d53-9d05-1d6732069b8f",
+            "buyIngredients": {
+                "tomato": 4,
+                "ketchup": 2,
+                "onion": 3,
+                "meat": 1
+            },
+            "date": "25/2/2022 7:43:51"
+        },
+        {
+            "id": "75322c92-5a9d-40eb-ad7d-055e8e9e3ddd",
+            "buyIngredients": {
+                "rice": 4,
+                "onion": 3
+            },
+            "date": "25/2/2022 7:45:40"
         }
     ]
 }
