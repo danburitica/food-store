@@ -6,7 +6,7 @@ require("dotenv").config();
 const { BUY_BASE_URL } = process.env;
 
 /**
- * Es método es invocado por la cocina, al solicitar un nuevo plato con sus ingredientes.
+ * Éste método es invocado por la cocina, al solicitar un nuevo plato con sus ingredientes.
  * Verifica la base de datos local donde está el stock de alimentos, si tiene la cantidad suficiente, despacha.
  * Si no tiene stock, compra en la plaza, hasta que tenga la cantidad mínima o más.
  */
@@ -25,12 +25,16 @@ const getIngredients = async (req, res) => {
         ingredientsToKitchen[ingredient] = reqQuantity;
         database[ingredient] = storeQuantity - reqQuantity;
       } else {
-        const newQuantity = await buyIngredients(
-          ingredient,
-          reqQuantity - storeQuantity
-        );
-        ingredientsToKitchen[ingredient] = reqQuantity;
-        database[ingredient] = newQuantity + storeQuantity - reqQuantity;
+        try {
+          const newQuantity = await buyIngredients(
+            ingredient,
+            reqQuantity - storeQuantity
+          );
+          ingredientsToKitchen[ingredient] = reqQuantity;
+          database[ingredient] = newQuantity + storeQuantity - reqQuantity;
+        } catch (error) {
+          console.error(error);
+        }
       }
     }
   }
@@ -48,10 +52,14 @@ const getIngredients = async (req, res) => {
 const buyIngredients = async (ingredient, minQuantity) => {
   let quantityBuy = 0;
   while (quantityBuy < minQuantity) {
-    const {
-      data: { quantitySold },
-    } = await axios.get(BUY_BASE_URL + ingredient);
-    quantityBuy += quantitySold;
+    try {
+      const {
+        data: { quantitySold },
+      } = await axios.get(BUY_BASE_URL + ingredient);
+      quantityBuy += quantitySold;
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   return quantityBuy;

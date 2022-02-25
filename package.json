@@ -1,7 +1,7 @@
 {
   "name": "api-food-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node JS microservice Food Store",
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon src/index.js",

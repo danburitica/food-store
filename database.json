@@ -1,12 +1,12 @@
 {
-    "tomato": 2,
-    "lemon": 5,
-    "potato": 5,
-    "rice": 1,
-    "ketchup": 3,
-    "lettuce": 5,
-    "onion": 5,
-    "cheese": 5,
-    "meat": 5,
-    "chicken": 5
+    "tomato": 0,
+    "lemon": 1,
+    "potato": 0,
+    "rice": 3,
+    "ketchup": 1,
+    "lettuce": 0,
+    "onion": 2,
+    "cheese": 0,
+    "meat": 0,
+    "chicken": 2
 }
