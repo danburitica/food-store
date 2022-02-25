@@ -75,6 +75,23 @@ const buyIngredients = async (ingredient, minQuantity) => {
   return quantityBuy;
 };
 
+/**
+ * Método encargado de retornar el stock o el historial de la base de datos.
+ */
+
+const getStore = (req, res) => {
+  const key = req.query.key;
+
+  res.json(
+    key === "stock"
+      ? db.get("store")
+      : key === "history"
+      ? db.get("buyHistory")
+      : { message: "No matches" }
+  );
+};
+
 module.exports = {
   getIngredients,
+  getStore,
 };
