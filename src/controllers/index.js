@@ -4,7 +4,9 @@ const axios = require("axios");
 require("dotenv").config();
 const { v4: uuidv4 } = require("uuid");
 
-const { BUY_BASE_URL } = process.env;
+const buy_base_url =
+  process.env.BUY_BASE_URL ||
+  "https://recruitment.alegra.com/api/farmers-market/buy?ingredient=";
 
 /**
  * Éste método es invocado por la cocina, al solicitar un nuevo plato con sus ingredientes.
@@ -65,7 +67,7 @@ const buyIngredients = async (ingredient, minQuantity) => {
     try {
       const {
         data: { quantitySold },
-      } = await axios.get(BUY_BASE_URL + ingredient);
+      } = await axios.get(buy_base_url + ingredient);
       quantityBuy += quantitySold;
     } catch (error) {
       res.json({ message: error });
