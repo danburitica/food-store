@@ -1,8 +1,7 @@
-const JSONdb = require("simple-json-db");
-const db = new JSONdb("./database.json");
 const axios = require("axios");
 require("dotenv").config();
-const { v4: uuidv4 } = require("uuid");
+const ingredientSchema = require("../models/ingredient");
+const buyHistorySchema = require("../models/buyHistory");
 
 const buy_base_url =
   process.env.BUY_BASE_URL ||
@@ -10,47 +9,53 @@ const buy_base_url =
 
 /**
  * Éste método es invocado por la cocina, al solicitar un nuevo plato con sus ingredientes.
- * Verifica la base de datos local donde está el stock de alimentos, si tiene la cantidad suficiente, despacha.
+ * Verifica la base de datos donde está el stock de alimentos, si tiene la cantidad suficiente, despacha.
  * Si no tiene stock, compra en la plaza, hasta que tenga la cantidad mínima o más.
  */
 
 const getIngredients = async (req, res) => {
   const { ingredients } = req.body;
-  const { store: database } = db.JSON();
+  const stock = await ingredientSchema.find();
 
-  let ingredientsToKitchen = {};
+  let ingredientsToKitchen = false;
   let buyHistory = {
-    id: uuidv4(),
-    buyIngredients: {},
+    ingredients: [],
     date: new Date().toLocaleString(),
   };
 
-  for (const ingredient in ingredients) {
-    let reqQuantity = ingredients[ingredient];
-    let storeQuantity = database[ingredient];
-    if (ingredient in database) {
-      if (storeQuantity - reqQuantity >= 0) {
-        ingredientsToKitchen[ingredient] = reqQuantity;
-        database[ingredient] = storeQuantity - reqQuantity;
-      } else {
-        try {
-          const newQuantity = await buyIngredients(
-            ingredient,
-            reqQuantity - storeQuantity
-          );
-          buyHistory.buyIngredients[ingredient] = newQuantity;
-          ingredientsToKitchen[ingredient] = reqQuantity;
-          database[ingredient] = newQuantity + storeQuantity - reqQuantity;
-        } catch (error) {
-          res.json({ message: error });
-        }
+  for (const ingredient of ingredients) {
+    let reqQuantity = ingredient.quantity;
+    let { quantity: storeQuantity, _id } = stock.find(
+      (ingredientDB) => ingredientDB.name === ingredient.name
+    );
+    if (storeQuantity - reqQuantity >= 0) {
+      ingredientsToKitchen = true;
+      await ingredientSchema.findByIdAndUpdate(_id, {
+        quantity: storeQuantity - reqQuantity,
+      });
+    } else {
+      try {
+        const newQuantity = await buyIngredients(
+          ingredient.name,
+          reqQuantity - storeQuantity
+        );
+        buyHistory.ingredients.push({
+          name: ingredient.name,
+          quantity: newQuantity,
+        });
+        ingredientsToKitchen = true;
+        await ingredientSchema.findByIdAndUpdate(_id, {
+          quantity: newQuantity + storeQuantity - reqQuantity,
+        });
+      } catch (error) {
+        res.json({ message: error });
       }
     }
   }
-  db.set("store", database);
-  Object.keys(buyHistory.buyIngredients).length &&
-    db.set("buyHistory", [...db.get("buyHistory"), buyHistory]);
-  db.sync();
+  if (buyHistory.ingredients.length) {
+    const newBuyHistory = new buyHistorySchema(buyHistory);
+    await newBuyHistory.save();
+  }
   res.json(ingredientsToKitchen);
 };
 
@@ -81,16 +86,17 @@ const buyIngredients = async (ingredient, minQuantity) => {
  * Método encargado de retornar el stock o el historial de la base de datos.
  */
 
-const getStore = (req, res) => {
+const getStore = async (req, res) => {
   const key = req.query.key;
-
-  res.json(
-    key === "stock"
-      ? db.get("store")
-      : key === "history"
-      ? db.get("buyHistory")
-      : { message: "No matches" }
-  );
+  if (key === "stock") {
+    const stock = await ingredientSchema.find();
+    res.json(stock);
+  } else if (key === "history") {
+    const history = await buyHistorySchema.find();
+    res.json(history);
+  } else {
+    res.json({ message: "No matches" });
+  }
 };
 
 module.exports = {
